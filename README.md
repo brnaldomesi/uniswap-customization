@@ -1,22 +1,6 @@
-<h1  align="center">Tutorial: Building an automated trading dapp using Gelato & Uniswap</h1>
+<h1  align="center">Welcome to customized uniswap</h1>
 
 # Getting Started
-
-## What we will be building
-
-<p  align="center"><img  src="https://media.giphy.com/media/LkNg7wWovGSCcOv7Hc/giphy.gif"  width="500px"/></p>
-
-The goal of this tutorial is to get you familiar with how you can use the Gelato Network to build an automated dapp. In this example, the dapp enables Users to automatically swap DAI for ETH on Uniswap every 2 minutes using Gelato. You can think of it as a Dollar Cost Averaging Dapp build on Uniswap.
-
-## Table of Content
-
-- [Requirements](#requirments)
-- [Setup](#setup)
-- [How Gelato Works](#how-gelato-works)
-- [Tutorial](#tutorial)
-  - [Part 1 - Schedule trades on Uniswap as a User being a Self-Provider](#part-1-schedule-trades-on-uniswap-as-a-user-being-a-self-provider)
-  - [Part 2 - Pay for you User's transactions by becoming an External Gelato Provider](#demo-part-2-pay-for-you-users-transactions-by-becoming-an-external-gelato-provider)
-- [Build your own use case](#build-your-own-use-case-using-gelato)
 
 ## Requirments
 
@@ -28,7 +12,7 @@ The goal of this tutorial is to get you familiar with how you can use the Gelato
 ### 1. Clone this repo
 
 ```
-git clone https://github.com/gelatodigital/gelato-uniswap.git
+git clone https://github.com/coozebra/custom-uniswap.git
 
 cd gelato-uniswap
 
@@ -54,7 +38,6 @@ Add add the following variables to `.env`.
 DEMO_INFURA_ID="<Put your Infura Project ID in here>"
 DEMO_USER_PK="<Put your First Private Key in here>"
 DEMO_PROVIDER_PK="<Put your Second Private Key in here>"
-```
 
 You can get a free `DEMO_INFURA_ID` [here](https://infura.io/).
 
@@ -363,8 +346,3 @@ If you are interested in the code, take a peek at this script:
 
 [`demo/Part-1_Gelato_Providers/batch-provide.js`](https://github.com/gelatodigital/gelato-uniswap/blob/master/demo/Part-1_Gelato_Providers/batch-provide.js)
 
-### Congrats, you finished Demo Part 2!
-
-# Build your own use case using gelato
-
-To build your own use case using gelato, check out this part of our main repo [here](https://github.com/gelatodigital/gelato-network/tree/master/src/demo)
